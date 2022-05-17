@@ -19,7 +19,7 @@ export default function Example() {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-30 scale-95"
         >
-          <Menu.Items className="absolute left-0 mt-4 w-max origin-top-left rounded-r-lg  bg-gray-900 bg-opacity-80 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <Menu.Items className="absolute right-0 mt-4 w-max origin-top-left rounded-l-lg  bg-gray-900 bg-opacity-80 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
@@ -28,7 +28,7 @@ export default function Example() {
                       active
                         ? "transition duration-200 ease-in-out bg-lime-700 text-white"
                         : "text-lime-500"
-                    } group flex w-full items-center rounded-tr-lg px-2 py-2 text-sm`}
+                    } group flex w-full items-center rounded-tl-lg px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
                         "https://cristianneda.github.io/subscriber-gitlab/",
@@ -66,7 +66,7 @@ export default function Example() {
                       active
                         ? "transition duration-200 ease-in-out bg-lime-700 text-white"
                         : "text-lime-500"
-                    } group flex w-full items-center rounded-br-lg px-2 py-2 text-sm`}
+                    } group flex w-full items-center rounded-bl-lg px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
                         "https://cristianneda.github.io/redux/",

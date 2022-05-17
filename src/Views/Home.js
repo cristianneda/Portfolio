@@ -1,21 +1,37 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 
-
-
 const Home = () => {
-   
   return (
     <div class="absolute top-0 right-0 bottom-0 left-0 w-full h-full  overflow-hidden bg-fixed">
       <NavBar />
-      <div class=" bg-black bg-opacity-60 flex justify-center items-center content-center h-full">
+
+      <div class=" bg-black  bg-opacity-70 flex-col h-full">
+        <div class=" bg-black bg-opacity-5 rounded-lg text-white text-center  w-2/3 ">
+          <div class=" relative top-0  block p-6 rounded-lg shadow-lg  max-w-sm">
+            <h5 class=" text-xl leading-tight font-bold mb-2">
+              Greetings digital traveller,
+            </h5>
+            <p class=" indent-8 font-semibold text-base text-left mb-4">
+              I am a technology enthusiast myself, and recently, I discovered
+              this thing called React.js that makes JavaScript, HTML and CSS
+              more fun than anything else I can possibly think of. I'm still
+              learning, as you can probably see from my projects and I would
+              love to turn this passion into a lifestyle. I read somewhere
+              that... "If you do what you love, you'll never work a day in your
+              life."
+            </p>
+          </div>
+        </div>
         <div class="text-center text-white px-6 md:px-12">
-          <h1 class="text-6xl font-bold mt-0 mb-6  ">CRISTIAN NEDA</h1>
-          <h3 class="text-3xl font-bold mb-8">Junior Frontend Developer</h3>
+          <h1 class="text-4xl font-bold mt-0 mb-6  ">CRISTIAN NEDA</h1>
+          <h3 class="text-1xl font-bold mb-8">Junior Frontend Developer</h3>
           <div class="space-x-4 mb-44 ">
             <button
               type="button"
-              onClick={()=> window.open("https://github.com/cristianneda", "_blank")}
+              onClick={() =>
+                window.open("https://github.com/cristianneda", "_blank")
+              }
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
               class="inline-block px-6 py-2.5 mb-2 border-2 border-white hover:border-lime-500 hover:bg-black hover:bg-opacity-90   text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
@@ -33,7 +49,12 @@ const Home = () => {
             </button>
             <button
               type="button"
-              onClick={()=> window.open("https://www.linkedin.com/in/neda-mihai-cristian/", "_blank")}
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/neda-mihai-cristian/",
+                  "_blank"
+                )
+              }
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
               class="inline-block px-6 py-2.5 mb-2 border-2 border-white hover:border-lime-500 hover:bg-blue-700 hover:bg-opacity-50  text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
@@ -51,7 +72,12 @@ const Home = () => {
             </button>
             <button
               type="button"
-              onClick={()=> window.open("https://www.facebook.com/cristian.mihai.neda/", "_blank")}
+              onClick={() =>
+                window.open(
+                  "https://www.facebook.com/cristian.mihai.neda/",
+                  "_blank"
+                )
+              }
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
               class="inline-block px-6 py-2.5 mb-2 border-2 border-white hover:border-lime-500 hover:bg-gradient-to-r from-rose-700 via-purple-800 to-blue-500 hover:bg-opacity-50 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
