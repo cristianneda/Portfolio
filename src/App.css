@@ -1,0 +1,35 @@
+.carousel {
+  position:relative;
+  height:50vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position:absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: aqua;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position:absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: aqua;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
