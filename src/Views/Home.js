@@ -8,7 +8,7 @@ const Home = () => {
 
       <div class=" bg-black  bg-opacity-70 flex-col h-full">
         <div class=" bg-black bg-opacity-5 rounded-lg text-white text-center  w-4/5">
-          <div class=" relative top-0  block p-6 rounded-lg shadow-lg  max-w-sm">
+          <div class=" relative top-0  block p-6 rounded-lg shadow-lg  max-w-lg">
             <h5 class=" text-xl leading-tight font-bold mb-2">
               Greetings digital traveller,
             </h5>
