@@ -12,14 +12,13 @@ const Home = () => {
             <h5 class=" text-xl leading-tight font-bold mb-2">
               Greetings digital traveller,
             </h5>
-            <p class=" indent-8 font-semibold text-base text-left mb-3">
+            <p class=" indent-8 font-semibold text-base text-justify mb-3">
               I am a technology enthusiast myself, and recently, I discovered
-              this thing called React.js that makes JavaScript, HTML and CSS
-              more fun than anything else I can possibly think of. I'm still
-              learning, as you can probably see from my projects and I would
-              love to turn this passion into a lifestyle. I read somewhere
-              that... "If you do what you love, you'll never work a day in your
-              life."
+              React.js the magic that makes JavaScript, HTML and CSS more fun
+              than EVER. I'm still learning, as you can see from my projects but
+              I would love to turn this passion into a lifestyle. I read
+              somewhere that... "If you do what you love, you'll never work a
+              day in your life."
             </p>
           </div>
         </div>
