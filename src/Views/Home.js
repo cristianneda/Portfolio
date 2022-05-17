@@ -7,12 +7,12 @@ const Home = () => {
       <NavBar />
 
       <div class=" bg-black  bg-opacity-70 flex-col h-full">
-        <div class=" bg-black bg-opacity-5 rounded-lg text-white text-center  w-4/5">
-          <div class=" relative top-0  block p-6 rounded-lg shadow-lg  max-w-lg">
+        <div class=" bg-black bg-opacity-5 rounded-lg text-white text-center  w-5/6">
+          <div class=" relative top-0  block p-4 rounded-lg shadow-lg  w-5/6">
             <h5 class=" text-xl leading-tight font-bold mb-2">
               Greetings digital traveller,
             </h5>
-            <p class=" indent-8 font-semibold text-base text-left mb-4">
+            <p class=" indent-8 font-semibold text-base text-left mb-3">
               I am a technology enthusiast myself, and recently, I discovered
               this thing called React.js that makes JavaScript, HTML and CSS
               more fun than anything else I can possibly think of. I'm still
@@ -24,9 +24,9 @@ const Home = () => {
           </div>
         </div>
         <div class="text-center text-white px-6 md:px-12">
-          <h1 class="text-4xl font-bold mt-0 mb-6  ">CRISTIAN NEDA</h1>
-          <h3 class="text-1xl font-bold mb-8">Junior Frontend Developer</h3>
-          <div class="space-x-4 mb-44 ">
+          <h1 class="text-4xl font-bold mt-0 mb-1  ">CRISTIAN NEDA</h1>
+          <h3 class="text-1xl font-bold mb-3">Junior Frontend Developer</h3>
+          <div class="space-x-4 ">
             <button
               type="button"
               onClick={() =>

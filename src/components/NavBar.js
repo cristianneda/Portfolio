@@ -19,7 +19,7 @@ const NavBar = () => {
         ></img>
       </div>
         <div class=" w-full flex p-2 self-center justify-end ">
-          <ProjectsButton />
+          <ProjectsButton  />
         </div>
         
       </div>
