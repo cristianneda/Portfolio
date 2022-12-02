@@ -8,7 +8,7 @@ const NavBar = () => {
         <div class="">
           <img
             class="rounded-lg hover:scale-125 w-24 p-2"
-            src="/public/portret.jpg"
+            src="https://neda-node-weather-app.herokuapp.com/img/portret.jpg"
             alt=""
             onClick={() =>
               window.open(
