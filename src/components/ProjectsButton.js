@@ -13,20 +13,20 @@ export default function Example() {
         <Transition
           as={Fragment}
           enter="transition ease-out duration-100"
-          enterFrom="transform opacity-30 scale-95"
-          enterTo="transform opacity-100 scale-100"
+          enterFrom="transform  scale-95"
+          enterTo="transform  scale-100"
           leave="transition ease-in duration-75"
-          leaveFrom="transform opacity-100 scale-100"
-          leaveTo="transform opacity-30 scale-95"
+          leaveFrom="transform  scale-100"
+          leaveTo="transform  scale-95"
         >
-          <Menu.Items className="absolute right-0 mt-4 w-max origin-top-left rounded-l-lg  bg-gray-900 bg-opacity-80 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <Menu.Items className=" right-0 mt-4 w-max origin-top-left rounded-l-lg  bg-white ring-black ">
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
                   <button
                     className={`${active
-                        ? "transition duration-200 ease-in-out bg-lime-700 text-white"
-                        : "text-lime-500"
+                      ? "transition duration-200 ease-in-out bg-lime-700 text-white"
+                      : "text-lime-500"
                       } group flex w-full items-center rounded-tl-lg px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
@@ -43,8 +43,8 @@ export default function Example() {
                 {({ active }) => (
                   <button
                     className={`${active
-                        ? "transition duration-200 ease-in-out bg-lime-700 text-white"
-                        : "text-lime-500"
+                      ? "transition duration-200 ease-in-out bg-lime-700 text-white"
+                      : "text-lime-500"
                       } group flex w-full items-center rounded-tl-lg px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
@@ -61,8 +61,8 @@ export default function Example() {
                 {({ active }) => (
                   <button
                     className={`${active
-                        ? "transition duration-200 ease-in-out bg-lime-700 text-white"
-                        : "text-lime-500"
+                      ? "transition duration-200 ease-in-out bg-lime-700 text-white"
+                      : "text-lime-500"
                       } group flex w-full items-center  px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
@@ -79,8 +79,8 @@ export default function Example() {
                 {({ active }) => (
                   <button
                     className={`${active
-                        ? "transition duration-200 ease-in-out bg-lime-700 text-white"
-                        : "text-lime-500"
+                      ? "transition duration-200 ease-in-out bg-lime-700 text-white"
+                      : "text-lime-500"
                       } group flex w-full items-center rounded-bl-lg px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(

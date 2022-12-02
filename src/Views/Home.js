@@ -7,18 +7,15 @@ const Home = () => {
       <NavBar />
 
       <div class=" bg-black  bg-opacity-70 flex-col h-full">
-        <div class=" bg-black bg-opacity-5 rounded-lg text-white text-center  w-5/6">
-          <div class=" relative top-0  block p-4 rounded-lg shadow-lg  w-5/6">
+        <div class=" bg-black bg-opacity-5 rounded-lg text-white text-center  ">
+          <div class=" relative top-0  block p-4 rounded-lg shadow-lg  ">
             <h5 class=" text-xl leading-tight font-bold mb-2">
               Greetings digital traveller,
             </h5>
             <p class=" indent-8 font-semibold text-base text-justify mb-3">
               I am a technology enthusiast myself, and recently, I discovered
               React.js the magic that makes JavaScript, HTML and CSS more fun
-              than EVER. I'm still learning, as you can see from my projects but
-              I would love to turn this passion into a lifestyle. I read
-              somewhere that... "If you do what you love, you'll never work a
-              day in your life."
+              than EVER. Also Node.js, Heroku, Express and MongoDB make life easy"
             </p>
           </div>
         </div>
