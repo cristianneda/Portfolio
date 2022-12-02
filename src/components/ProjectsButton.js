@@ -24,11 +24,28 @@ export default function Example() {
               <Menu.Item>
                 {({ active }) => (
                   <button
-                    className={`${
-                      active
+                    className={`${active
                         ? "transition duration-200 ease-in-out bg-lime-700 text-white"
                         : "text-lime-500"
-                    } group flex w-full items-center rounded-tl-lg px-2 py-2 text-sm`}
+                      } group flex w-full items-center rounded-tl-lg px-2 py-2 text-sm`}
+                    onClick={() =>
+                      window.open(
+                        "https://neda-node-weather-app.herokuapp.com/",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Weather
+                  </button>
+                )}
+              </Menu.Item>
+              <Menu.Item>
+                {({ active }) => (
+                  <button
+                    className={`${active
+                        ? "transition duration-200 ease-in-out bg-lime-700 text-white"
+                        : "text-lime-500"
+                      } group flex w-full items-center rounded-tl-lg px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
                         "https://cristianneda.github.io/subscriber-gitlab/",
@@ -43,11 +60,10 @@ export default function Example() {
               <Menu.Item>
                 {({ active }) => (
                   <button
-                    className={`${
-                      active
+                    className={`${active
                         ? "transition duration-200 ease-in-out bg-lime-700 text-white"
                         : "text-lime-500"
-                    } group flex w-full items-center  px-2 py-2 text-sm`}
+                      } group flex w-full items-center  px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
                         "https://cristianneda.github.io/Simple-Background-Generator/",
@@ -62,11 +78,10 @@ export default function Example() {
               <Menu.Item>
                 {({ active }) => (
                   <button
-                    className={`${
-                      active
+                    className={`${active
                         ? "transition duration-200 ease-in-out bg-lime-700 text-white"
                         : "text-lime-500"
-                    } group flex w-full items-center rounded-bl-lg px-2 py-2 text-sm`}
+                      } group flex w-full items-center rounded-bl-lg px-2 py-2 text-sm`}
                     onClick={() =>
                       window.open(
                         "https://cristianneda.github.io/redux/",
