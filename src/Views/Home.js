@@ -15,7 +15,8 @@ const Home = () => {
             <p class=" indent-8 font-semibold text-base text-justify mb-3">
               I am a technology enthusiast myself, and recently, I discovered
               React.js the magic that makes JavaScript, HTML and CSS more fun
-              than EVER. Also Node.js, Heroku, Express and MongoDB make life easy, untill... Heroku started charging me !!!"
+              than EVER. Also Node.js, Heroku, Express and MongoDB make life easy, 
+              until... Heroku started charging me !!!"
             </p>
           </div>
         </div>
