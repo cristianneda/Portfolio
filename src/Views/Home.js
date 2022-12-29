@@ -16,7 +16,7 @@ const Home = () => {
               I am a technology enthusiast myself, and recently, I discovered
               React.js the magic that makes JavaScript, HTML and CSS more fun
               than EVER. Also Node.js, Heroku, Express and MongoDB make life easy, 
-              until... Heroku started charging me !!!"
+              until... Heroku started charging me  !!!!"
             </p>
           </div>
         </div>
