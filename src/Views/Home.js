@@ -22,7 +22,7 @@ const Home = () => {
         </div>
         <div class="text-center text-white px-6 md:px-12">
           <h1 class="text-4xl font-bold mt-0 mb-1  ">CRISTIAN NEDA</h1>
-          <h3 class="text-1xl font-bold mb-3">Junior Frontend Developer</h3>
+          <h3 class="text-1xl font-bold mb-3">Junior Developer</h3>
           <div class="space-x-4 ">
             <button
               type="button"
